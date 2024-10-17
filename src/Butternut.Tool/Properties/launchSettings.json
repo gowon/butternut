@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Help Output": {
+      "commandName": "Project",
+      "commandLineArgs": "-?",
+      "workingDirectory": "$(MSBuildProjectDirectory)/../.."
+    },
+    "Convert Samples": {
+      "commandName": "Project",
+      "commandLineArgs": "./samples/complex-features/ --output ./artifacts",
+      "workingDirectory": "$(MSBuildProjectDirectory)/../.."
+    }
+  }
+}
